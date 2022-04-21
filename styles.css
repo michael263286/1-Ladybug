@@ -1,0 +1,140 @@
+body{
+  background-color:rgb(255, 218, 213);
+  margin:0;
+}
+header{
+  border-style:solid;
+  border-color: rgb(80, 68, 253);
+  background-color: white;
+  height:75px;
+  width:10;
+  border-width:thin;
+  margin: 0px 0px;
+  align-items:center;
+}
+
+ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  align-items: flex-start;
+  list-style: none;
+  padding: 20px 20px 20px 40px;
+  margin: 0px 10px;
+  width:100%;
+}
+
+li{
+  display:flex;
+  align-items:space-between;
+  padding: 10px 20px;
+  font-family: 'Lexend Deca', sans-serif;
+  justify-content: center;
+  font-weight:bold;
+  color: rgb(105, 108, 168);
+}
+
+li.smallbutton{
+  display:flex;
+  padding:0px 30px 20px 20px;
+}
+
+.homebutton{
+  display:flex;
+  flex-direction: flex-start;
+  padding:30px 40px 10px 40px;
+  color:rgb(79, 83, 230);
+  margin:0px 359px 0px 75px;
+  height:30px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 800;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display:flex;
+}
+.content{
+  dispay:flex;
+  max-width:1000px;
+  align-items:center;
+  margin: 0 auto;
+  padding:120px 0px 50px 200px;
+}
+img.hero{
+  display:flex;
+  flex-direction: row-reverse;
+  padding:200px 40px 500px 40px;
+  margin:0px; 
+  width:40%;
+}
+
+h1{
+  font-size:100px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color:rgb(40, 44, 131);
+  margin:0;
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+font-family: 'Montserrat', sans-serif;
+color:rgb(40, 44, 131);
+font-size: 20px;
+max-width:500px;
+line-height:1.5;
+margin:20px;
+}
+
+.fun-color{
+  color:rgb(105, 185, 165);
+}
+
+.field{
+  display:flex;
+  margin:15px;
+  flex-direction: column;
+  padding:0;
+  margin:0;
+  border: 2px solid rgb(40, 44, 131);
+  padding:0 10px;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: none;
+  justify-content: center;
+}
+
+.sign-up{
+  display:flex;
+  margin:0 auto;
+  padding:20px 20px;
+}
+
+
+.sign-up img{
+  display:block;
+}
+
+.sign-up button{
+  padding:0;
+  margin:0;
+  border:none;
+  display:block;
+}
+
+.field label{
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size:12px;
+  color:rgb(40, 44, 131);
+  width:300px;
+}
+
+.field input{
+  border: none;
+}
